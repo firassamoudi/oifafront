@@ -8,7 +8,7 @@ module.exports = (phase, { defaultConfig }) => {
       env: {
       //  APP_URL: "http://dev.oifa.website:3000",
       //  API_URL: "http://dev.oifa.api:3001",
-        APP_URL: "http://localhost:3002/",
+        APP_URL: "http://oifa.tech:3000",
         API_URL: "http://dev.oifa.api:3001",
       },
     };
@@ -18,8 +18,8 @@ module.exports = (phase, { defaultConfig }) => {
   return {
     ...defaultConfig,
     env: {
-      APP_URL: "https://beta.oifa.tech",
-      API_URL: "https://app.oifa.tech",
+      APP_URL: "http://oifa.tech",
+      API_URL: "http://oifa.tech",
     },
   };
 };
